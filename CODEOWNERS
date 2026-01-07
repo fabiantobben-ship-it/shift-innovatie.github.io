@@ -1,0 +1,30 @@
+# CODEOWNERS voor shiftinnovatie/shift-innovatie.github.io
+# Plaats dit bestand in: .github/CODEOWNERS  (of /CODEOWNERS of docs/CODEOWNERS)
+#
+# Syntax: <pattern> <owner1> <owner2> ...
+# Owners kunnen zijn: org-teams (bijv. @org/team-name) of individuele gebruikers (@username).
+# Regels bovenaan hebben prioriteit; specifieke paden overschrijven algemene regels.
+#
+# JULLIE WENS: iedereen krijgt dezelfde status. Daarom is er één simpele eigenaar-regel.
+# Aanbevolen (als je een GitHub Organization en teams gebruikt):
+*  @shiftinnovatie/owners
+#
+# Alternatief (als je géén org-team hebt): gebruik individuele gebruikers.
+# Uncomment de volgende regel en vervang / voeg gebruikers toe zoals hieronder, en comment de team-regel uit.
+# *  @fabiantobben-ship-it @andere-gebruiker @nieuwe-gebruiker
+#
+# Hoe voeg je nieuwe mensen toe:
+# - Als je een org-team gebruikt (aanbevolen):
+#   1) Ga naar je GitHub-organization → Teams → maak/gebruik team "owners" (of een andere naam).
+#   2) Voeg nieuwe medewerkers toe aan dat team. Ze zijn dan automatisch owner voor dit repo.
+# - Als je individuele gebruikers in CODEOWNERS gebruikt:
+#   1) Voeg hun GitHub-handle toe op de *-regel (bijv. @nieuwe-gebruiker).
+#   2) Open een PR met die wijziging en merge zodra de reviewers akkoord zijn.
+#
+# Om te zorgen dat CODEOWNERS ook écht verplicht is:
+# - Ga naar repo → Settings → Branches → Add rule voor je main/publicatie-branch
+# - Vink aan: "Require pull request before merging" en "Require review from Code Owners"
+# - Optioneel: zet minimaal 1 goedkeuring vereist en kies "Include administrators" als je wilt dat admins ook aan de regels gehouden worden.
+#
+# Opmerking: dit bestand geeft alleen aan wie als reviewer/owner gevraagd wordt; zorg dat je branch protection rules inschakelt
+# om te voorkomen dat wijzigingen zonder review gemerged worden.
